@@ -1,5 +1,10 @@
 # EvoWrap Integration Guide
 
+<p align="center">
+  <img src="docs/image.jpg" alt="EvoWrap — Agent Evolution" width="100%">
+</p>
+
+
 A step-by-step guide to attaching **any** AI agent — LLM-based, reinforcement learning, rule-based, symbolic, or hybrid — to EvoWrap so it becomes a self-evolving, continually learning system.
 
 ---
