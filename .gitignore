@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+dist/
+build/
+.eggs/
+*.jsonl
+evowrap_memories/
+evowrap_checkpoints/
+.pytest_cache/
