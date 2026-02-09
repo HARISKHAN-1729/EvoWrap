@@ -1,16 +1,3 @@
-"""
-EvoWrap Safety Module — Three Laws enforcement & ethical guardrails.
-
-Addresses survey critiques:
-  - Self-evolving survey's "Three Laws of AI Agent" (Endure, Excel, Evolve)
-    are stated as principles but no existing framework *enforces* them at
-    runtime.  Agent Lightning optimises performance while ignoring ethical
-    risk; Mem0/ToolLLM have no safety layer at all.
-  - EvoWrap makes the Three Laws *executable*: every proposed evolution is
-    validated through a hierarchical gate (Endure → Excel → Evolve) before
-    it can be applied.
-"""
-
 from __future__ import annotations
 
 import copy
