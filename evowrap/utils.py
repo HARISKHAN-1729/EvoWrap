@@ -1,10 +1,3 @@
-"""
-EvoWrap Utilities — shared primitives used across all modules.
-
-Provides lightweight embedding, hashing, logging, and numerical helpers
-so the framework runs without heavy external dependencies (torch, pinecone, etc.)
-while remaining drop-in replaceable when those are available.
-"""
 
 from __future__ import annotations
 
