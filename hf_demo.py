@@ -10,7 +10,7 @@ evolutionary optimization, Three Laws safety, and evaluation.
 Designed for Google Colab (free T4 GPU). No API keys needed.
 
 Quick start on Colab:
-    !git clone https://github.com/<you>/EvoWrap.git && cd EvoWrap
+    Clone The repo
     !pip install -e . transformers torch accelerate
     !python hf_demo.py
 
