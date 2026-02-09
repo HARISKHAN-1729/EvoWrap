@@ -1850,3 +1850,12 @@ How EvoWrap compares to the tools discussed in the surveys (Zheng et al., 2025; 
 | **Safety report** | The output of a Three Laws validation. Contains a verdict (PASS, FAIL_ENDURE, FAIL_EXCEL, FAIL_EVOLVE, BLOCKED), details, and suggestions. |
 | **Three Laws** | The hierarchical safety gate: (I) Endure — no crashes, (II) Excel — no regression, (III) Evolve — measurable gain. Evaluated in strict order. |
 | **Vector index** | A local brute-force cosine-similarity index for long-term memory. Replaceable with FAISS or Pinecone. |
+
+
+@misc{Khan2026EvoWrap,
+author = {Muhammad Haris Khan},
+title = {EvoWrap},
+year = {2026},
+howpublished = {\url{https://github.com/HARISKHAN-1729/EvoWrap}},
+note = {GitHub repository}
+}
