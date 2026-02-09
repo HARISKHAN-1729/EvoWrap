@@ -1,18 +1,4 @@
 #!/usr/bin/env python3
-"""
-EvoWrap Full Integration Demo
-==============================
-
-Demonstrates:
-  1. Wrapping a simple agent with @evowrap
-  2. Running it through a non-stationary bandit environment
-  3. Observing drift detection, memory replay, and self-evolution
-  4. Printing evaluation metrics after each phase
-
-The "agent" here is a trivial epsilon-greedy policy whose exploration rate
-is controlled by a genome parameter — the optimizer evolves this parameter
-to adapt to changing reward distributions.
-"""
 
 import numpy as np
 from evowrap import (
