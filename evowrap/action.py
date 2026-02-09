@@ -1,13 +1,3 @@
-"""
-EvoWrap Action Module — tool grounding, chain-of-thought, and action execution.
-
-Addresses survey critiques:
-  - Agents often lack *grounded* action execution: they hallucinate tool names
-    or produce invalid arguments.  The ActionModule maintains a typed tool
-    registry and validates calls before execution.
-  - Chain-of-thought traces are captured alongside actions so the optimizer
-    can reason about *why* an action was taken, enabling reflective evolution.
-"""
 
 from __future__ import annotations
 
