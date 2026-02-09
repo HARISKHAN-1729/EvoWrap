@@ -1,15 +1,3 @@
-"""
-EvoWrap Evaluator — integrated metrics, benchmarks, and test suite.
-
-Addresses survey critiques:
-  - Lifelong survey Section 13: existing tools lack built-in benchmarks for
-    long-term adaptation, relying on ad-hoc tests.
-  - Self-evolving survey: incomplete coverage of safety metrics.
-  - EvoWrap ships with a first-class evaluation suite that measures five
-    dimensions after every evolution cycle: adaptation, forgetting, plasticity,
-    safety compliance, and efficiency.
-"""
-
 from __future__ import annotations
 
 import time
