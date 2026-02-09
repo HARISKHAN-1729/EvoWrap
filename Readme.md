@@ -1852,10 +1852,15 @@ How EvoWrap compares to the tools discussed in the surveys (Zheng et al., 2025; 
 | **Vector index** | A local brute-force cosine-similarity index for long-term memory. Replaceable with FAISS or Pinecone. |
 
 
+## Citation
+
+If you use EvoWrap in your research, please cite:
+```bibtex
 @misc{Khan2026EvoWrap,
-author = {Muhammad Haris Khan},
-title = {EvoWrap},
-year = {2026},
-howpublished = {\url{https://github.com/HARISKHAN-1729/EvoWrap}},
-note = {GitHub repository}
+  author       = {Muhammad Haris Khan},
+  title        = {EvoWrap},
+  year         = {2026},
+  howpublished = {\url{https://github.com/HARISKHAN-1729/EvoWrap}},
+  note         = {GitHub repository}
 }
+```
