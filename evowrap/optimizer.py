@@ -1,15 +1,4 @@
-"""
-EvoWrap Optimizer Engine — evolutionary algorithms + RL-based self-evolution.
 
-Addresses survey critiques:
-  - Agent Lightning uses RL but is LLM-centric; EvoAgentX mutates prompts
-    but ignores non-LLM agents.  EvoWrap's optimizer is *agent-agnostic*:
-    it evolves any mutable parameter (prompts, numeric weights, tool configs,
-    strategy strings) through a generic genome abstraction.
-  - The stability-plasticity dilemma is handled by combining evolutionary
-    search (exploration) with a PPO-style policy gradient (exploitation),
-    gated by the SafetyChecker's Three Laws validation.
-"""
 
 from __future__ import annotations
 
