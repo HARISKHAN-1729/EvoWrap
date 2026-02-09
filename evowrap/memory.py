@@ -1,16 +1,3 @@
-"""
-EvoWrap Memory Module — hybrid short/long-term store with replay & regularization.
-
-Addresses survey critiques:
-  - Mem0-style systems store memories but lack *replay* (sampling old experiences
-    during training) and *regularization* (penalizing changes to important
-    parameters), causing catastrophic forgetting (>50% drops in LifelongAgentBench).
-  - EvoWrap provides both: a replay buffer for interleaving old experiences and
-    an EWC-inspired importance-weighted regularization signal that the optimizer
-    can consume.
-  - Long-term memory uses a local approximate-nearest-neighbor index (no external
-    service required), making it self-contained and distributable.
-"""
 
 from __future__ import annotations
 
